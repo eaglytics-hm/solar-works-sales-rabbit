@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "solar-works-sales-rabbit"
+version = "0.1.0"
+description = ""
+authors = ["HM <hieumdd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+requests = "^2.26.0"
+google-cloud-bigquery = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+pytest = "^6.2.5"
+mypy = "^0.930"
+types-requests = "^2.26.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+python_version = 3.9
+namespace_packages = true
