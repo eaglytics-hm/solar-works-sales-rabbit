@@ -15,7 +15,7 @@ class Pipeline:
     incre_key: str
 
 
-leads = Pipeline(
+Leads = Pipeline(
     "Leads",
     "leads",
     lambda rows: [
@@ -81,7 +81,7 @@ leads = Pipeline(
     "statusModified",
 )
 
-lead_status_histories = Pipeline(
+LeadStatusHistories = Pipeline(
     "LeadStatusHistories",
     "leadStatusHistories",
     lambda rows: [
